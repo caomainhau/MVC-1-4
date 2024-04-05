@@ -12,7 +12,7 @@ public class Main {
 
         // Load data from file
         try {
-            File inputFile = new File("D:\\Hoc\\Java\\MidTerm\\input.txt");
+            File inputFile = new File("/Users/manhhaucao/IdeaProjects/MVC_1_4-main/MVC_1_4/input.txt");
             controller.loadFromFile(inputFile);
         } catch (IOException e) {
             e.printStackTrace();
@@ -23,7 +23,7 @@ public class Main {
 
         // Save data to file
         try {
-            File outputFile = new File("D:\\Hoc\\Java\\MidTerm\\output.txt");
+            File outputFile = new File("/Users/manhhaucao/IdeaProjects/MVC_1_4-main/MVC_1_4/output.txt");
             controller.saveToFile(outputFile);
         } catch (IOException e) {
             e.printStackTrace();
